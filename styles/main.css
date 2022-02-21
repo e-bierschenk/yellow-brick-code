@@ -1,0 +1,42 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    background-color: #bada55;
+}
+
+main {
+    flex: 3;
+}
+
+aside{
+    flex: 1;
+}
+
+.main_content {
+    display: flex;
+}
+
+img {
+    width: 100%
+}
+
+.friend-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+}
+
+.friend-list section {
+    max-width: 200px;
+}
